@@ -29,7 +29,7 @@
  *
  * Development Mode:
  * 	1: Errors and warnings shown, model caches refreshed, flash messages halted.
- * 	2: As in 1, but also with full debug messages and SQL output.
+ * 	2: As in 1, but also with full debug messages and Security.saltSQL output.
  *
  * In production mode, flash messages redirect after a time interval.
  * In development mode, you need to click the flash message to continue.
@@ -233,12 +233,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'nguyenvanquockhanh');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '76859309657453542496749683645');
+	Configure::write('Security.cipherSeed', '02091997');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).

@@ -1,0 +1,23 @@
+h2 {
+	color: orange;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu_actions {
+	padding-top: 20px;
+}
+
+.inline_action {
+	color: green;
+	font-size: small;
+}
+
+.validation_errors {
+	color: rosybrown;
+	font-size: medium;
+	font-weight: bold;
+}
